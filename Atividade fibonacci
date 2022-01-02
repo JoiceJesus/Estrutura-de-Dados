@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+
+int fibonacci(int n){
+	int cont,f1=0,f2=1,f3;
+
+	for(cont=f3;cont=f3<n;cont++){
+		f3=f1+f2;
+		if(n==f3){
+		return 1;
+		}
+		f1=f2;
+		f2=f3;
+		printf("%d, ",f3);
+}
+}
+void main(){
+	int n;
+	
+	printf("Informa o valor:");
+    scanf("%d",&n);
+	
+	fibonacci(n);
+}
